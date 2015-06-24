@@ -1,6 +1,7 @@
 //web.js
 var express = require('express');
 var less = require('express-less');
+var markdown = require('express-markdown');
 
 var app = express();
 
@@ -13,9 +14,11 @@ app.set('views', __dirname + '/resources/jade');
 app.use('/css', less(__dirname + '/resources/less'));
 // app.use('/js', express.static(__dirname + '/resources/js'));
 app.use('/other', express.static(__dirname + '/resources/other'));
+//Setup markdown middleware.
+app.use(markdown({directory: __dirname + '/markdown', view: 'article'}));
 
-app.get('/', function (req, res) {
-  res.render('home');
-});
+// app.get('/', function (req, res) {
+//   res.render('home');
+// });
 
 app.listen(1025);
