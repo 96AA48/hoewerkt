@@ -15,7 +15,7 @@ app.use('/css', less(__dirname + '/resources/less'));
 app.use('/other', express.static(__dirname + '/resources/other'));
 
 app.get('/', function (req, res) {
-  res.send('Hello world!');
+  res.render('home');
 });
 
 app.listen(1025);
