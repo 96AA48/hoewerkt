@@ -1,0 +1,16 @@
+{
+  "name": "hoewerkt",
+  "version": "1.0.0",
+  "description": "A web thingy for my schoolpaper",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Bram van der Veen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.0",
+    "express-less": "0.0.7",
+    "jade": "^1.11.0"
+  }
+}
