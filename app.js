@@ -21,4 +21,9 @@ app.get('/', function (req, res) {
   res.redirect('/home.md');
 });
 
-app.listen(1025);
+function start(port) {
+  console.log('Started Hoewerkt on port', port);
+  app.listen(port);
+}
+
+module.exports = start;
