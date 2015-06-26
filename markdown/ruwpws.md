@@ -11,4 +11,7 @@ Voor een "logboek" van mijn veranderingen en werk kun je [hier](http://git.werkm
 Op deze website is alles wat ik heb gedaan bijgehouden met datum, tijd en de verandingen die ik gedaan heb.  
 Daarnaast is het project zelf (de code) [hier](http://git.werkmanrooster.nl/werkmanrooster/rooster-io) te vinden.
 
+Mijn geschreven PWS is deze website waar je nu op zit.  
+Voor het project van deze website kun je [hier terecht](http://git.werkmanrooster.nl/werkmanrooster/hoewerkt) en voor het [logboek hier](http://git.werkmanrooster.nl/werkmanrooster/hoewerkt/commits/master).
+
 -- Bram van der Veen, A5/A6
