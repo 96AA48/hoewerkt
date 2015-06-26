@@ -17,8 +17,8 @@ app.use('/other', express.static(__dirname + '/resources/other'));
 //Setup markdown middleware.
 app.use(markdown({directory: __dirname + '/markdown', view: 'article'}));
 
-// app.get('/', function (req, res) {
-//   res.render('home');
-// });
+app.get('/', function (req, res) {
+  res.redirect('/home.md');
+});
 
 app.listen(1025);
