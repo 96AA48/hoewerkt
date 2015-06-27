@@ -22,7 +22,6 @@ app.get('/', function (req, res) {
 });
 
 function start(port) {
-  console.log('Started Hoewerkt on port', port);
   app.listen(port);
 }
 
