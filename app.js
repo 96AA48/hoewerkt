@@ -26,3 +26,5 @@ function start(port) {
 }
 
 module.exports = start;
+
+if (process.argv[2] == 'standalone') start(1024);
