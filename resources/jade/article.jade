@@ -3,6 +3,19 @@ html
     title Hoe werkt Werkmanrooster ?
     link(rel="stylesheet", href="/css/style.css", type="text/css")
     link(rel="stylesheet", href="/css/skeleton.css", type="text/css")
-    
+
   body
-    .container!=markdown
+    .container
+      .row
+        .sidebar.five
+          div
+            h5 Profielwerkstuk
+            p Hoe werkt Werkmanrooster?
+            img(src="/images/face.png")
+            sup Bram van der Veen
+          ul
+            for article in locals.articles
+              li
+                a(href="/" + article)=article.substr(0,1).toUpperCase() + article.replace(/.md/, '').slice(1)
+        .content.seven
+          div!=markdown
