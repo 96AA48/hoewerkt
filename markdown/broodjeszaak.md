@@ -1,0 +1,14 @@
+##De broodjeszaak
+---
+Ik hoop dat ik je geen honger heb gegeven met deze titel, ik moet toegeven dat ik zelf ook honger kreeg toen ik dit voorbeeld bedacht.
+Laten we beginnen. Hoe Werkmanrooster werkt is vergelijkbaar met een broodjeszaak. Als jij je rooster opvraagd bij Werkmanrooster gebeuren er allemaal dingen achter elkaar om ervoor te zorgen dat jij uiteindelijk je rooster te zien krijgt. Je moet het op de volgende manier zien. Jij komt binnen bij een broodjeszaak. Je loopt naar de balie en vraagt naar een bepaald soort broodje. Dit broodje wordt dan vervolgens voor je gemaakt : er worden ingrediënten voorbereid en uiteinelijk op je broodje gedaan. Uiteindelijk word het broodje ingepakt in wat papier met wat servetten, daarna kan je genieten van je broodje.
+
+Bij Werkmanrooster gaat het ook op deze manier. Als jij bij Werkmanrooster je naam in typt is het alsof jij bij de balie verteld wat voor je broodje je wil. Het persoon wat hier achter de balie staat weet wat hij of zij moet doen om dat broodje te maken. Hetzelfde geld voor Werkmanrooster. Door jouw naam in te voeren gaat Werkmanrooster op zoek naar de naam die je hebt ingevoerd, opzoek naar het soort brood, en pakt deze informatie zodat het verder verwerkt kan worden.
+Deze [informatie](http://werkmanrooster.nl/api/search?name=Bram%20van%20der%20Veen) zijn dingen zoals je naam, leerlingid en of je wel een leerling bent en geen docent. Bij de broodjeszaak worden er nu allemaal lekkere dingen op het broodje gedaan, maar bij Werkmanrooster word je rooster opgevraagd bij de [officiële](http://roosters5.gepro-osi.nl/roosters/rooster.php?school=934) roostersite.
+
+Dan heb je nog in principe nog rauwe informatie (rauwe ingrediënten). Niemand wil een hele kaas op zijn broodje, met plastic randen er nog aan vast. Nee jij wil gewoon een plakje kaas. Dit is waarom Werkmanrooster niet die informatie doorstuurd, maar eerst verwerkt net zoals bij de broodjeszaak waar je kaas eerst in plakjes word gedaan.  
+Nadat deze rauwe informatie is verwerkt wordt alles bij elkaar gegooid (het broodje en de ingrediënten). Maar zelfs dan is alles nog niet klaar, wat je terugkrijgt is een broodje waarvan je handen plakkerig worden en wat niet handig in gebruik is, daardoor krijg je een papieren hoes voor je broodje samen met wat servetten voor "gebruiksgemak". Bij Werkmanrooster wordt de verwerkte informatie ([je rooster](http://werkmanrooster.nl/api/schedule?name=Bram%20van%20der%20Veen&tab=0)) nog in een webpagina gestopt voor dezelfde principes. Bij Werkmanrooster is het papier en de servetten de website zelf. De website, de zoekbalk en zoekknop zijn er allemaal voor gebruiksgemak.
+
+Als dit allemaal is gebeurd ziet het resultaat er ongeveer [zo](http://werkmanrooster.nl/rooster/Bram%20van%20der%20Veen) uit. Of je geniet van je rooster op dezelfde manier als een lekker broodje is natuurlijk de vraag.
+
+[Volgende (Nu wat moeilijker) >>](/watmoeilijker.md) [Is er nog niet]

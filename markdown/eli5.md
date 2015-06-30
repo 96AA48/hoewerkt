@@ -5,6 +5,9 @@ Als je naar de titel van deze pagina kijkt dan denk je zeker, wat is dit nou wee
 
 Bij het maken van de nieuwe versie van werkmanrooster heb ik vooral gedacht aan het schrijven van code die door mensen leesbaar is, en niet alleen door machines.
 
-> Any fool can write code that a computer can understand. Good programmers write code that humans can understand. -Martin Fowler
+> "Any fool can write code that a computer can understand.  
+Good programmers write code that humans can understand." -Martin Fowler
 
 Dit allemaal bij elkaar is een poging om alles zo duidelijk mogelijk uit te leggen.
+
+[Volgende (De broodjeszaak) >>](/broodjeszaak.md)
