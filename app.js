@@ -15,6 +15,7 @@ app.locals.articles = fs.readdirSync(__dirname + '/markdown');
 app.use('/css', less(__dirname + '/resources/less', {debug : true}));
 // app.use('/js', express.static(__dirname + '/resources/js'));
 app.use('/images', express.static(__dirname + '/resources/images'));
+app.use('/other', express.static(__dirname + '/resources/other'));
 //Setup markdown middleware.
 app.use(markdown({directory: __dirname + '/markdown', view: 'article'}));
 

@@ -3,6 +3,7 @@ html
     title Hoe werkt Werkmanrooster ?
     link(rel="stylesheet", href="/css/style.css", type="text/css")
     link(rel="stylesheet", href="/css/skeleton.css", type="text/css")
+    link(rel="stylesheet", href="/other/prism.css", type="text/css")
 
   body
     .container
@@ -20,3 +21,5 @@ html
                 a(href="/" + article)=article.substr(0,1).toUpperCase() + article.replace(/.md/, '').slice(1)
         .content.seven
           div!=markdown
+          
+    script(type="text/javascript", src="/other/prism.js")

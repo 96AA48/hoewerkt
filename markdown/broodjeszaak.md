@@ -11,4 +11,4 @@ Nadat deze rauwe informatie is verwerkt wordt alles bij elkaar gegooid (het broo
 
 Als dit allemaal is gebeurd ziet het resultaat er ongeveer [zo](http://werkmanrooster.nl/rooster/Bram%20van%20der%20Veen) uit. Of je geniet van je rooster op dezelfde manier als een lekker broodje is natuurlijk de vraag.
 
-[Volgende (Nu wat moeilijker) >>](/watmoeilijker.md) [Is er nog niet]
+[Volgende (Nu wat moeilijker) >>](/moeilijker.md) [Is er nog niet]
