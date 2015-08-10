@@ -5,8 +5,8 @@ Hoewel veel van het process is uitgelegd in [de broodjeszaak](/broodjeszaak.md) 
 Zo'n afweging ziet er als volgende uit in `code`.
 
 ```javascript
-//gevondenleerlingen.length wil zeggen hoeveel leerlingen er zijn.
-if (gevondenleerlingen.length > 1) {
+//leerlingen.length wil zeggen hoeveel leerlingen er zijn.
+if (leerlingen.length > 1) {
   //Code voor het maken van een lijst.
 }
 else {

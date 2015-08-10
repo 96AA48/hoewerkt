@@ -1,4 +1,4 @@
-##De broodjeszaak
+#### De broodjeszaak
 ---
 Ik hoop dat ik je geen honger heb gegeven met deze titel, ik moet toegeven dat ik zelf ook honger kreeg toen ik dit voorbeeld bedacht.
 Laten we beginnen. Hoe Werkmanrooster werkt is vergelijkbaar met een broodjeszaak. Als jij je rooster opvraagd bij Werkmanrooster gebeuren er allemaal dingen achter elkaar om ervoor te zorgen dat jij uiteindelijk je rooster te zien krijgt. Je moet het op de volgende manier zien. Jij komt binnen bij een broodjeszaak. Je loopt naar de balie en vraagt naar een bepaald soort broodje. Dit broodje wordt dan vervolgens voor je gemaakt : er worden ingrediënten voorbereid en uiteinelijk op je broodje gedaan. Uiteindelijk word het broodje ingepakt in wat papier met wat servetten, daarna kan je genieten van je broodje.
