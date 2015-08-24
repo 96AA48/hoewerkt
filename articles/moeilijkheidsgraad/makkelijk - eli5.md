@@ -10,4 +10,4 @@ Good programmers write code that humans can understand." -Martin Fowler
 
 Dit allemaal bij elkaar is een poging om alles zo duidelijk mogelijk uit te leggen.
 
-[Volgende (De broodjeszaak) >>](/Inhetkort)
+[Volgende (De broodjeszaak) >>](/inhetkort)

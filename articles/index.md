@@ -20,4 +20,4 @@ Voor het project van deze website kun je [hier terecht](http://git.werkmanrooste
 
 De resultaten van de enquête die ik heb gedaan is [hier](https://docs.google.com/spreadsheets/d/1aFATRxpZHEEclkP5N8JychHlphkcezI4vAAl2nWqXe0/edit#gid=547327911) te vinden. -->
 
-[Naar de inleiding >>](/Inleiding)
+[Naar de inleiding >>](/inleiding)

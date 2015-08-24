@@ -2,9 +2,9 @@
 var fs = require('fs');
 var marked = require('marked');
 var articles = [
-  'Inleiding',
-  'Moeilijkheidsgraad',
-  'Inhetkort:In het kort'
+  'inleiding:Inleiding',
+  'moeilijkheidsgraad:Moeilijkheidsgraad',
+  'inhetkort:In het kort'
 ]
 
 module.exports = function (req, res, next) {
