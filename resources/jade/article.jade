@@ -12,13 +12,14 @@ html
           div
             h5 Profielwerkstuk
             p Hoe werkt Werkmanrooster?
-            a(href="http://96aa48.github.io")
-              img(src="/images/face.png")
+            sup Door :
+            //- a(href="http://96aa48.github.io")
+            //-   img(src="/images/face.png")
             sup Bram van der Veen
           ul
-            for article in locals.articles
+            for article in articles
               li
-                a(href="/" + article)=article.substr(0,1).toUpperCase() + article.replace(/.md/, '').slice(1)
+                a(href="/" + article.match(':') ? article.split(':')[0] : article)=article.match(':') ? article.split(':')[1] : article
         .content.seven
           div!=markdown
 
