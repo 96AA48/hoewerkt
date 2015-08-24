@@ -3,7 +3,7 @@
 Welkom op de index van mijn profielwerkstuk. Vanuit hier kun je alle verschillende hoofdstukken en deelvragen bekijken en nalezen. Ik zou echt wel voorstellen om de artikelen te lezen op chronologische volgorde, want op die manier zou het het makkelijkste te lezen zijn.
 
 ---
-
+<!--
 Ik ben in de laatste paar weken druk bezig geweest met het maken van het nieuwe Werkmanrooster.
 Ik wil dit nu opnieuw gemaakte project gaan onderzoeken en aan de hand daarvan mensen uit leggen hoe de website achter de schermen werkt. (onderzoek)
 Ik ben hier aan toegekomen in de PWS week maar heb niet een geschreven deel waarvan er al uitleg is, ik heb het voorwerk gedaan om mijn uitleg zo begrijpbaar mogelijk te houden.
@@ -18,6 +18,6 @@ Daarnaast is het project zelf (de code) [hier](http://git.werkmanrooster.nl/werk
 Mijn geschreven PWS is deze website waar je nu op zit.  
 Voor het project van deze website kun je [hier terecht](http://git.werkmanrooster.nl/werkmanrooster/hoewerkt) en voor het [logboek hier](http://git.werkmanrooster.nl/werkmanrooster/hoewerkt/commits/master).
 
-De resultaten van de enquête die ik heb gedaan is [hier](https://docs.google.com/spreadsheets/d/1aFATRxpZHEEclkP5N8JychHlphkcezI4vAAl2nWqXe0/edit#gid=547327911) te vinden.
+De resultaten van de enquête die ik heb gedaan is [hier](https://docs.google.com/spreadsheets/d/1aFATRxpZHEEclkP5N8JychHlphkcezI4vAAl2nWqXe0/edit#gid=547327911) te vinden. -->
 
-[Naar de inleiding >>](/inleiding.md)
+[Naar de inleiding >>](/Inleiding)
