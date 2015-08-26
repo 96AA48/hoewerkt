@@ -23,7 +23,21 @@ Bijvoorbeeld als je `Bram van der Veen` in typt zal het systeem [de informatie](
 }
 ```
 Wat hier belangrijk is, is dat je je beseft dat als je iets in typt dat rooster.io de verschillende waardes bij langs gaat om te kijken of ze overeen komen met de zoekopdracht.  
-In dit geval komt `Bram van der Veen` overeen met de waarde van het variabele `name`. Maar hetzelfde geld als ik bijvoorbeeld alleen `Bram` of `van der Veen` in typ, het systeem zal alleen [meerdere](http://werkmanrooster.nl/api/search?name=Bram) [mensen](http://werkmanrooster.nl/api/search?name=van der Veen) vinden met dezelfde waardes.  
+In dit geval komt `Bram van der Veen` overeen met de waarde van het variabele `name`. Maar hetzelfde geld als ik bijvoorbeeld alleen `Bram` of `van der Veen` in typ, het systeem zal alleen [meerdere ](http://werkmanrooster.nl/api/search?name=Bram)[mensen](http://werkmanrooster.nl/api/search?name=van der Veen) vinden met dezelfde waardes.  
 Als rooster.io meerdere mensen vindt voor dezelfde zoekopdracht dan maakt hij een lijst zodat de gebruiker kan kiezen uit welk van de mensen hij of zij het rooster wil zien. Als er maar één persoon gevonden wordt dan gaat rooster.io verder met de volgende stap.
 
 ##### Het verkrijgen en verwerken van het rooster.
+Nu dat het voorwerk is gedaan, is het eindelijk tijd voor rooster.io om bezig te gaan met waar het om gaat: roosters. Zoals je misschien gezien hebt bij [de informatie](http://werkmanrooster.nl/api/search?name=Bram%20van%20der%20Veen) is er een data waarde genaamd "url". Als je naar deze [url](http://roosters5.gepro-osi.nl/roosters/rooster.php?school=934&type=Leerlingrooster&afdeling=l_atheneum 6&leerling=16374) gaat dan zul je de normale roostersite zien van Schoolmasters. Waar je nu naar kijkt is de informatie die rooster.io ontvangt als hij opzoek gaat naar je rooster. De hoeveelheid informatie die uit deze pagina te halen is lijkt op het eerste gezicht triviaal, maar als je verder kijkt dan wat de gebruiker ziet zul je een grote cluster vinden van informatie die allemaal te gebruiken is voor verschillende doeleindes.  
+
+Los van wat je met al die informatie kan doen, gaat rooster.io in dit geval bezig met het verwerken van het rooster op de pagina naar "rauwe informatie". Een dataobject word gemaakt van de verschillende dingen. Een algoritme gaat langs de verschillende dagen, gaat langs elk uur en kijkt naar de volgende dingen:  
+
+* Is het een uitgevallen uur?
+* Is er een roosterwijziging op het uur?
+* Welk uur is het? (1e, 2e, etc)
+* Welke docent geeft de les? (bGel, hTig, etc)
+* Welk lokaal of welke locatie word er gebruikt in de les? (L2.10, Lfit, etc)
+* Wat voor les is het? (WIS, AK, etc)
+
+Rooster.io stopt dan alle uren in de bijhorende dag en stopt dan alle informatie bij elkaar. Het resultaat is een [dataobject](http://werkmanrooster.nl/api/schedule?name=Bram%20van%20der%20veen) wat door rooster.io gebruikt kan worden voor het laten zien van een rooster.
+
+##### Het renderen van het rooster.
