@@ -4,7 +4,8 @@ var marked = require('marked');
 var articles = [
   'inleiding:Inleiding',
   'moeilijkheidsgraad:Moeilijkheidsgraad',
-  'inhetkort:In het kort'
+  'inhetkort:In het kort',
+  'intypen:Je typt werkmanrooster.nl in'
 ]
 
 module.exports = function (req, res, next) {
