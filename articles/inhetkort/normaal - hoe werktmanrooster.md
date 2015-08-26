@@ -7,6 +7,9 @@ Je hebt vast wel een keer gehoord van een "server", maar wat dat ding eigenlijk 
 * rooster.io (zonder hoofdletter)  
 Het naam van Werkmanrooster als project in code, Werkmanrooster en rooster.io kunnen constant uitgewisseld worden voor benaming in zinnen.
 
+* Templates  
+Sjablomen
+
 ##### Je gaat naar [Werkmanrooster.nl](http://werkmanrooster.nl)
 Dit is misschien wel het snelste proces wat er gebeurd binnen het systeem. Er is namelijk geen informatie nodig van de gebruiker en de website kan gelijk reageren zonder roosters op te halen. Het enige wat rooster.io hoeft te doen is een pagina te laten zien aan de gebruiker.
 
@@ -41,3 +44,5 @@ Los van wat je met al die informatie kan doen, gaat rooster.io in dit geval bezi
 Rooster.io stopt dan alle uren in de bijhorende dag en stopt dan alle informatie bij elkaar. Het resultaat is een [dataobject](http://werkmanrooster.nl/api/schedule?name=Bram%20van%20der%20veen) wat door rooster.io gebruikt kan worden voor het laten zien van een rooster.
 
 ##### Het renderen van het rooster.
+Maar hoe zorgen we ervoor dat [dit](http://werkmanrooster.nl/api/schedule?name=Bram%20van%20der%20veen) er uit gaat zien als [dat](http://werkmanrooster.nl/rooster/Bram van der Veen)?
+Simpel is het niet, maar het systeem gebruikt aan aantal "[templates](http://git.werkmanrooster.nl/werkmanrooster/rooster-io/tree/master/resources/jade)" of sjablomen. Deze templates zijn gemaakt voor het laten zien van verschillende paginas. Rooster.io heeft er een voor de hoofdpagina, roosters, login en lijsten van mensen. Voor een rooster word het template "schedule" gebruikt. Deze template sorteerd de informatie van het dataobject in een tabel van een webpagina. Het is alsof het dataobject gesmolten ijzer is en het gegoten word in een vorm zodat het bruikbaar word. Er wordt bij het renderen van het rooster ook nog wat extra dingen bij gedaan voor beter gebruiksgemak.

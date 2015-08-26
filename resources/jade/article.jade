@@ -4,6 +4,7 @@ html
     link(rel="stylesheet", href="/css/style.css", type="text/css")
     link(rel="stylesheet", href="/css/skeleton.css", type="text/css")
     link(rel="stylesheet", href="/other/prism.css", type="text/css")
+    //- meta(http-equiv="refresh", content="2")
 
   body
     .container
@@ -12,14 +13,14 @@ html
           div
             h5 Profielwerkstuk
             p Hoe werkt Werkmanrooster?
-            sup Door :
-            //- a(href="http://96aa48.github.io")
-            //-   img(src="/images/face.png")
+            //- sup Door :
+            a(href="http://96aa48.github.io")
+              img(src="/images/face.png")
             sup Bram van der Veen
           ul
             for article in articles
               li
-                a(href="/" + article.match(':') ? article.split(':')[0] : article)=article.match(':') ? article.split(':')[1] : article
+                a(href="/" + (article.match(':') ? article.split(':')[0] : article))=article.match(':') ? article.split(':')[1] : article
         .content.seven
           div!=markdown
 
