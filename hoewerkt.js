@@ -5,7 +5,8 @@ var articles = [
   'inleiding:Inleiding',
   'moeilijkheidsgraad:Moeilijkheidsgraad',
   'inhetkort:In het kort',
-  'intypen:Je typt werkmanrooster.nl in'
+  'intypen:Je typt werkmanrooster.nl in',
+  'opzoek:Op zoek naar je naam'
 ]
 
 module.exports = function (req, res, next) {
