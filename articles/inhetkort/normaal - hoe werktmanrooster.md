@@ -10,10 +10,10 @@ Het naam van Werkmanrooster als project in code, Werkmanrooster en rooster.io ku
 * Templates  
 Sjablomen
 
-##### Je gaat naar [Werkmanrooster.nl](http://werkmanrooster.nl)
+##### [Je gaat naar Werkmanrooster.nl](/intypen)
 Dit is misschien wel het snelste proces wat er gebeurd binnen het systeem. Er is namelijk geen informatie nodig van de gebruiker en de website kan gelijk reageren zonder roosters op te halen. Het enige wat rooster.io hoeft te doen is een pagina te laten zien aan de gebruiker.
 
-##### Je typt je naam in en je drukt op enter.
+##### [Je typt je naam in en je drukt op enter.](/intypen)
 Dit is waar je een heel groot proces aan het werk zet. Op het moment dat de gebruiker op enter drukt wordt namelijk de naam die je hebt ingetypt geüpload naar rooster.io, dat wil zeggen, de informatie wordt vanaf de gebruiker gedeeld naar de server. De server controleerd wat je gestuurd hebt en reageerd op wat je hebt ingevuld. Bijvoorbeeld als je specifieke dingen intypt zoals "hoewerkt" word je naar deze paginas gestuurd. Als je zoekopdracht niet overeenkomt met die speciale gevallen dan doet hij een standaard zoekopdracht naar een rooster.
 
 ##### Rooster.io gaat een match zoeken van je zoekopdracht.
