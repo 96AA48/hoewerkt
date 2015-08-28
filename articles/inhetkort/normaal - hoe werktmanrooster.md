@@ -10,13 +10,14 @@ Het naam van Werkmanrooster als project in code, Werkmanrooster en rooster.io ku
 * Templates  
 Sjablomen
 
-##### [Je gaat naar Werkmanrooster.nl](/intypen)
-Dit is misschien wel het snelste proces wat er gebeurd binnen het systeem. Er is namelijk geen informatie nodig van de gebruiker en de website kan gelijk reageren zonder roosters op te halen. Het enige wat rooster.io hoeft te doen is een pagina te laten zien aan de gebruiker.
+##### [Je gaat naar werkmanrooster.nl](/intypen)
+Voordat je naar de website gaat zijn er een paar dingen die gebeuren tussen jouw computer in het internet. Je computer vraagt aan een DNS (Domain Name System) waar werkmanrooster.nl word omgezet in een internet telefoonnummer, zo genaamd een "IP adres" waar je computer naar toe gaat om verbinding te maken met de website.
 
-##### [Je typt je naam in en je drukt op enter.](/intypen)
+###### Je typt je naam in en je drukt op enter.
+Dit is misschien wel het snelste proces wat er gebeurd binnen het systeem. Er is namelijk geen informatie nodig van de gebruiker en de website kan gelijk reageren zonder roosters op te halen. Het enige wat rooster.io hoeft te doen is een pagina te laten zien aan de gebruiker.  
 Dit is waar je een heel groot proces aan het werk zet. Op het moment dat de gebruiker op enter drukt wordt namelijk de naam die je hebt ingetypt geüpload naar rooster.io, dat wil zeggen, de informatie wordt vanaf de gebruiker gedeeld naar de server. De server controleerd wat je gestuurd hebt en reageerd op wat je hebt ingevuld. Bijvoorbeeld als je specifieke dingen intypt zoals "hoewerkt" word je naar deze paginas gestuurd. Als je zoekopdracht niet overeenkomt met die speciale gevallen dan doet hij een standaard zoekopdracht naar een rooster.
 
-##### Rooster.io gaat een match zoeken van je zoekopdracht.
+##### [Rooster.io gaat een match zoeken van je zoekopdracht.](/opzoek)
 Bijvoorbeeld als je `Bram van der Veen` in typt zal het systeem [de informatie](http://werkmanrooster.nl/api/search?name=Bram van der Veen) vinden die daar bij hoort. Als je op de link klikt zul je verschillende waardes zien. Een waarde word gedefineerd als :
 ```javascript
 //In dit voorbeeld heeft naam_voor_de_data, de waarde "data".
