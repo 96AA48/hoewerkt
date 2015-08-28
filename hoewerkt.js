@@ -5,7 +5,7 @@ var articles = [
   'inleiding:Inleiding',
   'moeilijkheidsgraad:Moeilijkheidsgraad',
   'inhetkort:In het kort',
-  'intypen:Je typt werkmanrooster.nl in',
+  'intypen:Je gaat naar de website',
   'opzoek:Op zoek naar je naam'
 ]
 

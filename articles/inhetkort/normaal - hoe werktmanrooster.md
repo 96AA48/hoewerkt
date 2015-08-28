@@ -1,4 +1,4 @@
-#### Hoe werktmanrooster
+#### In het kort - Hoe werktmanrooster
 ---
 Hoewel broodjes heel erg lekker zijn, is het doel van Werkmanrooster (nog) niet om broodjes te maken. Bij Werkmanrooster of rooster.io gaat het om de informatie van je rooster zo snel en efficient mogelijk op je scherm krijgen. Hoewel we in dit hoofdstuk niet heel diep in gaan op elk deel van rooster.io, maar gaan we vooral alles globaal uitleggen. De genoemde kopjes zijn natuurlijk apart uitgelegd in hoofdstukken, dus het klikken van de links na het lezen zou voor de benodigde diepgang zorgen. Maar voor we beginnen wat basis begrippen.
 

@@ -22,4 +22,5 @@ else { //Als de eerste afweging niet klopt, dan gaat hij naar de volgende
 
 Bij de andere hoofdstukken zou ik uiteraard nieuwe dingen uitleggen, dus wees bereidt om wat nieuws te leren!
 
+---
 [Volgende >>](/inhetkort/normaal)

@@ -4,4 +4,5 @@ Heel veel mensen op het Werkmancollege locatie Stadslyceum gebruiken een alterna
 
 Er zijn in die tijd al verschillende versies van Werkmanrooster langsgekomen, dit profielwerkstuk zou echter gaan over mijn tweede versie van Werkmanrooster, genaamd [rooster.io](http://git.werkmanrooster.nl/werkmanrooster/rooster-io). Dit is de versie van werkmanrooster die iedereen heeft gebruikt voor de twee jaar en waar laatst een nieuwe versie van is uitgekomen. Ik ga in mijn profielwerkstuk uitleggen hoe Werkmanrooster in elkaar zit en wat er allemaal gebeurd tijdens en voordat je jouw rooster opvraagd. Ook ga ik antwoorden geven op veel gestelde vragen en nog een ander voorbeeld geven van soort gelijke webapplicatie.
 
-[Volgende (ELI5) >>](/moeilijkheidsgraad)
+---
+[Volgende (Moeilijkheidsgraad) >>](/moeilijkheidsgraad)
