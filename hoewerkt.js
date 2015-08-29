@@ -6,7 +6,8 @@ var articles = [
   'moeilijkheidsgraad:Moeilijkheidsgraad',
   'inhetkort:In het kort',
   'intypen:Je gaat naar de website',
-  'opzoek:Op zoek naar je naam'
+  'opzoek:Op zoek naar je naam',
+  'verkrijgen:Verkrijgen en verwerken'
 ]
 
 module.exports = function (req, res, next) {

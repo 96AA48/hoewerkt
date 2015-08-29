@@ -8,7 +8,7 @@ In de eerste 0.2 seconden gebeurd er namelijk een kleine zoektocht naar jouw naa
 ```json
   Naam: Bram van der Veen
   Leerlingnummer: 16374
-  Klas: Atheneum 6
+  Klas: Atheneum
   Voornaam: Bram
   Achternaam: van der Veen
   Soort: Leerling
@@ -19,4 +19,4 @@ Voor de secretaresse gaat dus alles bij langs en kijkt of wat jij hebt gevraagd 
 Heb je uiteindelijk een keuze gemaakt dan stuurt ze het dossier uit het archief naar de volgende balie waar het verder word verwerkt.
 
 ---
-[Volgende >>](#)
+[Volgende (Verkrijgen en verwerken) >>](/verkrijgen)

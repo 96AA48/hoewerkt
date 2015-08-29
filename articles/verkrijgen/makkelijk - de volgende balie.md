@@ -23,4 +23,4 @@ Dit is essentieel en makkelijk uitgelegd hoe werkmanrooster werkt, en waarom men
 
 ---
 
-[Volgende (Frequently Asked Questions) >>](/faq)
+[Volgende (Frequently Asked Questions) >>](#)
