@@ -21,8 +21,8 @@ app.get('/', hoewerkt);
 app.get('/:article', hoewerkt);
 app.get('/:article/:difficulty', hoewerkt);
 
-function start(port) {
-  app.listen(port);
+function start(port, host) {
+  app.listen(port, host);
 }
 
 module.exports = start;
