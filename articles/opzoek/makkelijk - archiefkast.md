@@ -1,9 +1,13 @@
-##### Opzoek naar je naam - De Werkmanrooster archiefkast
+##### Opzoek naar je naam
 ---
 
-Nadat je computer werkmanrooster.nl heeft gevonden via het "DNS" [telefoonboek](/intypen), maakt hij een verbinding met de website. Je zult nu [dit](http://werkmanrooster.nl) zien. Wat je als het volgende doet is je naam intypen om te kijken wat je rooster is. Je verwacht uiteraard dat de volgende pagina met je rooster laad binnen een halve seconde. Maar wat er eigenlijk gebeurd is veel gecompliceerder.  
+##### De Werkmanrooster archiefkast
 
-In de eerste 0.2 seconden gebeurd er namelijk een kleine zoektocht naar jouw naam. Werkmanrooster beschikt namelijk over een grote archiefkast van namen. Namen van leerlingen, docenten en zelfs lokalen. Als je op enter hebt gedrukt gaat er een secretaresse bezig met het vergelijken van de naam die je hebt ingetypt en de namen in de archiefkast. Ze haalt alle namen er uit die overeenkomen met wat je hebt ingetypt. Aan het einde van de zoektocht is het de vraag hoeveel namen ze heeft gevonden. Heeft ze maar een gevonden dan is het simpel. Het rooster wordt gemaakt van dat persoon. Als er meerdere zijn gevonden zal ze [vragen](http://werkmanrooster.nl/rooster/Bram) welke van de gevonden mensen je het rooster wil zien. Als ze een dossier uit de archiefkast haalt ziet het er ongeveer zo uit.  
+Nadat je computer werkmanrooster.nl heeft gevonden via het [`DNS` telefoonboek](/intypen), maakt hij verbinding met de website. Je ziet de hoofdpagina van de website en typt je naam in. Je drukt op enter en de je rooster laadt in minder dan een seconde.
+
+In die ene seconden zijn heel wat processen aan de gang om ervoor te zorgen dat jij je rooster te zien krijgt. Nu gaan we kijken naar hoe Werkmanrooster bijhoudt wie welk rooster heeft. Je hebt vast wel gehoord van een `database`, vast in een film of je favoriete serie. Een `database` is eigenlijk een grote digitale archiefkast waar informatie in zit. Maar hoe werkt dat dan? Laten we kijken naar een voorbeeld met een archiefkast.
+
+Werkmanrooster beschikt over een grote archiefkast van leerlingen, docenten, klassen en lokalen. Als je op enter drukt gaat er een secretaresse bezig met het vergelijken van de naam die je hebt ingetypt en de namen in de archiefkast. Ze haalt alle namen er uit die overeenkomen met wat je hebt ingetypt. Aan het einde van de zoektocht heeft ze een bestand gevonden van een persoon waarnaar jij vroeg. Een bestand uit die archiefkast ziet er zo uit:
 
 ```json
   Naam: Bram van der Veen
@@ -14,9 +18,40 @@ In de eerste 0.2 seconden gebeurd er namelijk een kleine zoektocht naar jouw naa
   Soort: Leerling
   Rooster: roosters5.gepro-osi.nl/roosters/rooster.php?school=934&type=Leerlingrooster&afdeling=l_atheneum 6&leerling=16374
 ```
-Voor de secretaresse gaat dus alles bij langs en kijkt of wat jij hebt gevraagd overeen komt met iets in een van de dossiers. Mocht je bijvoorbeeld "16374" aan haar vragen, dan zal zij mijn dossier alsnog pakken omdat mijn leerlingnummer 16374 is. Hetzelfde geld als je alleen de achternaam of voornaam doet. Het risico daarmee is, is dat je soms meerdere mensen vind met dezelfde voor- of achternaam, terwijl een leerlingnummer uniek is.
 
-Heb je uiteindelijk een keuze gemaakt dan stuurt ze het dossier uit het archief naar de volgende balie waar het verder word verwerkt.
+Wat de secretaresse doet is elk bestand nagaan en dit vergelijken met wat jouw zoekopdracht was. Als jij vraagt naar "Bram" dan zal ze alle Brammen pakken. Vraag jij bevoorbeeld naar "Atheneum 6" dan zal zij alle bestanden pakken die uit Atheneum 6 komen. Ze stuurt dan het gevonden bestand naar haar collega die het rooster zal opzoeken en uitprinten.
 
 ---
-[Volgende (Verkrijgen en verwerken) >>](/verkrijgen)
+
+##### Zoeken naar een naald in een naaldberg
+Bij het intypen van `Bram van der Veen` zal het systeem [de informatie](http://werkmanrooster.nl/api/search?name=Bram van der Veen) vinden die daar bij hoort. Je ziet een duidelijke overeenkomst met het eerder genoemde bestand uit de grote archiefkast. Het verschil zijn wat vreemde tekens in en rond de informatie. Wat betekent dit allemaal? Eigenlijk staat er precies hetzelfde als in het eerder genoemde bestand, maar er zijn wat tekens aan toegevoegd zodat de computer het kan lezen. Een snelle uitleg:
+
+```javascript
+//In dit voorbeeld heeft naam_voor_de_data, de waarde "data".
+{
+  //De ":" wil zeggen dat de een waarde word gebonden aan een variabele
+  //in dit geval "data" aan de "naam_voor_de_data" variabele.
+  "naam_voor_de_data": "data"
+}
+```
+Rooster.io werkt hier net zoals de secretaresse. Hij gaat alle bestanden bij langs om te kijken of jouw zoekopdracht overeenkomt met een van de vele bestanden in de database. Zo'n bestand ziet er zo uit:
+```javascript
+//Een dataset voor de zoekopdracht "Bram van der Veen"
+{
+      "id": "16374", //Leerlingnummer
+      "group": "A6A", //Groep waaraan de leerling behoort
+      "username": "16374bram", //De geschatte gebruikersnaam van de leerling
+      "name": "Bram van der Veen", //De hele naam van de leerling
+      "first_name": "Bram", //De voornaam van de leerling
+      "last_name": "van der Veen", //De achternaam van de leerling
+      "studentcategory": "l_atheneum 6", //Een variabele wat nodig is voor het opzoeken van het rooster.
+      "type": "leerling", //Een variable die bepaald of deze dataset een leerling is of iets anders.
+      "_id": "Mc5vtoIrhMM8e2dN",
+      //De link naar het rooster van de leerling.
+      "url": "roosters5.gepro-osi.nl/?school=934&type=Leerlingrooster&afdeling=l_atheneum 6&leerling=16374"
+  }
+```
+Het bestand is eigenlijk een groep variabeles die het systeem bij langs gaat. In dit geval komt `Bram van der Veen` overeen met de waarde van het variabele `name`. Maar hetzelfde geld als ik bijvoorbeeld alleen `Bram` of `van der Veen` intyp, het systeem zal alleen [meerdere ](http://werkmanrooster.nl/api/search?name=Bram)[mensen](http://werkmanrooster.nl/api/search?name=van der Veen) vinden met dezelfde waardes.  
+Als rooster.io meerdere mensen vindt voor dezelfde zoekopdracht dan maakt hij een lijst zodat de gebruiker kan kiezen uit welk van de mensen hij of zij het rooster wil zien. Als er maar één persoon gevonden wordt dan gaat rooster.io verder met de volgende stap, het rooster verkrijgen en verwerk
+
+[Volgende >>](/verkrijgen)

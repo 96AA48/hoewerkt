@@ -1,6 +1,7 @@
 #### Hoe werkt Werkmanrooster?
 ---
-Welkom op de index van mijn profielwerkstuk. Vanuit hier kun je alle verschillende hoofdstukken en deelvragen bekijken en nalezen. Ik zou echt wel voorstellen om de artikelen te lezen op chronologische volgorde, want op die manier zou het het makkelijkste te lezen zijn.
+Welkom bij mijn profielwerkstuk. Dit werkstuk bestaat uit een serie webpagina's die stap voor stap laten zien hoe Werkmanrooster werkt. Klik aan de link aan de onderkant van de pagina om naar de volgende pagina te gaan.
+Bedankt voor het lezen!
 
 ---
 <!--

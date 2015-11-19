@@ -1,6 +1,7 @@
-#### Verkrijgen en verwerken - De volgende balie
+#### Verkrijgen en verwerken
 ---
-Je komt aan bij de volgende balie met het in je hand gegeven bestand van het persoon van wat je zoekt.
+#### De volgende balie
+Om terug te komen op het archiefkast voorbeeld, gaan we verder met de volgende balie. De secretaresse heeft het gevonden bestand gegeven aan haar collega die vervolgens opzoek gaat naar jouw rooster. Hij neemt het bestand in handen en kijkt ernaar.
 ```json
   Naam: Bram van der Veen
   Leerlingnummer: 16374
@@ -10,17 +11,11 @@ Je komt aan bij de volgende balie met het in je hand gegeven bestand van het per
   Soort: Leerling
   Rooster: roosters5.gepro-osi.nl/roosters/rooster.php?school=934&type=Leerlingrooster&afdeling=l_atheneum 6&leerling=16374
 ```
-Het persoon achter de balie pakt het dossier en kijkt naar de link naar het rooster. Hij gaat vervolgens naar de link op zijn computer en print het voor je uit. Hij stopt het in een mooi mapje voor je, zegt dat de volgende aan de beurt is en gaat weer terug aan het werk. Wat je nu in je handen hebt is je rooster, alleen in een mapje. Je zou in principe zelf naar de link kunnen gaan en je rooster bekijken, maar wie weet die link nou uit z'n hoofd. Plus het is makkelijker om gewoon naar de archiefkast te lopen en dan vervolgens te vragen naar je rooster. Het maakt het pad naar je rooster makkelijker door al die stappen *voor* je uit te voeren. Het eerste en eigenlijk grootste verschil tussen de twee rooster sites is de link en hoe makkelijk het is om naar de site te gaan en deze te navigeren. En het verschil is merkbaar, kijk alleen naar het verschil in ontwerp en de groote van de links.
-
-```javascript
-  //De normale roostersite
-  "roosters5.gepro-osi.nl/roosters/rooster.php?school=934&type=Leerlingrooster&afdeling=l_atheneum 6&leerling=16374"
-  //Werkmanrooster
-  "werkmanrooster.nl/rooster/16374"
-```
-
-Dit is essentieel en makkelijk uitgelegd hoe werkmanrooster werkt, en waarom mensen het gebruiken.
+Hij bekijkt het bestand en richt zich gelijk op de laatste waarde van het bestand `Rooster`. Hier staat namelijk een link achter met de locatie van jouw rooster. Hij gaat naar die link en print de webpagina uit. Vervolgens pakt hij het papier met jouw rooster en knipt elk uur uit en zet het rooster opnieuw in elkaar. Hij doet dit mooier, beter en handiger dan het orginele rooster.
 
 ---
 
-[Volgende (Frequently Asked Questions) >>](#)
+#### Roosters als templaten
+Rooster.io gaat ook verder. Hij gaat verder door het bestand uit de database te verwerken. Hij doet hetzelfde als de collega in het verhaal hierboven. Hij knipt en plakt het rooster in een nieuw jasje. Hij gaat naar de link die is gegeven in het bestand en download het daar gevonden rooster als tekstbestand. Vervolgens gaat hij door dit tekstbestand heen om het rooster uit te vissen. Hij vertaalt dan deze door mensen te lezen informatie, in een soortgelijk [database bestand](http://werkmanrooster.nl/api/schedule?name=16374) zodat een computer het kan lezen. Dan stopt het systeem deze informatie in een "template". Een template is eigenlijk een soort koekjesvorm. Het zorgt ervoor dat de informatie die er in word gestopt er in een bepaalde vorm er uit komt. In ons geval is dat een webpagina.
+
+[Volgende >>](#)
