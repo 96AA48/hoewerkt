@@ -19,7 +19,6 @@ app.use('/other', express.static(__dirname + '/resources/other'));
 
 app.get('/', hoewerkt);
 app.get('/:article', hoewerkt);
-app.get('/:article/:difficulty', hoewerkt);
 
 function start(port, host) {
   app.listen(port, host);
