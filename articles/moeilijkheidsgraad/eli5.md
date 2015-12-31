@@ -1,25 +1,18 @@
 #### Moeilijkheidsgraad
-
 ---
-
 #### EL15
-Als je naar de titel van deze pagina kijkt dan denk je zeker, wat is dit nou weer voor een rare term. Vast voor iets gerelateerd aan programeren of zo iets moeilijks. Gelukkig voor jou, de lezer, is dat het omgekeerde. ELI5 staat voor "Explain Like I'm 5", dat wil zeggen, leg me dit uit alsof ik vijf jaar oud ben. Dit is om ervoor te zorgen dat mijn uitleg voor iedereen begrijpbaar zou moeten zijn. Bij elke pagina zal het van makkelijk naar steeds moelijker gaan verlopen om het zo goed mogelijk uit te leggen.
+Als je naar de titel van deze pagina kijkt dan denk je zeker, wat is dit nou weer voor een rare term. Vast voor iets gerelateerd aan programeren of zo iets moeilijks. Gelukkig voor jou, de lezer, is dat het omgekeerde. ELI5 is een term die is onstaan voor het makkelijker te begrijpen van moeilijke begrippen. ELI5 word vaak gebruikt in online gemeenschappen om te vragen naar de meeste makkelijk begrijpbare uitleg van een begrip, namelijk een uitleg die je ook zou geven aan een vijf jarige. Dit is om ervoor te zorgen dat mijn uitleg voor iedereen begrijpbaar zou moeten zijn. Bij elke pagina zal het van makkelijk naar steeds moelijker gaan verlopen om het zo goed mogelijk uit te leggen.
 
-Mocht je echter nog steeds denken dat je alles snapt, dan daag ik je uit om de [code](http://github.com/96aa48/rooster.io) te lezen. Gelukkig heb ik rekening gehouden met potentiele lezers van de code. Het is namelijk ook belangrijk dat je code leesbaar blijft voor mensen, naast dat het leesbaar is voor computers.
-
-> "Any fool can write code that a computer can understand.  
-Good programmers write code that humans can understand." -Martin Fowler
+Mocht je de uitdaging aan willen om meer inzicht te krijgen in Werkmanrooster, dan daag ik je uit om de [code](http://github.com/96aa48/rooster.io) te lezen. Gelukkig heb ik rekening gehouden met potentiele lezers van de code. De code is goed gedocumenteerd met verschillende "comments" aangeduid met `//` en `/*`. Het is namelijk ook belangrijk dat je code leesbaar blijft voor mensen, naast de code optimaliseren van code voor computers voor maximale effeci"entie.
 
 ---
-
 #### Rooster.io en code
 
-Als wij het hebben over Werkmanrooster dan hebben we het eigenlijk over een website waarop leerlingen hun roosters kunnen bekijken. Ik kan je ook uitleggen hoe het werkt in [grote lijnen](/inhetkort) maar er komt veel meer bij kijken dan alleen een voorbeeld met een broodjeszaak. Werkmanrooster heeft namelijk een tweede naam: [rooster.io](http://github.com/96aa48/rooster.io).  
-Dit is de naam voor het project, een project wat 100% bestaat uit code. Om een wat dieper begrip van Werkmanrooster en rooster.io te krijgen is het dus belangrijk dat je ook deze kant kent. Ik zou verschillende begrippen gebruiken en uiteraard uitleggen.
+Werkmanrooster is meer dan alleen wat webpagina's met roosters. Werkmanrooster is een kleine data-gedreven-webapplicatie. Dit wil zeggen dat Werkmanrooster zijn functioneren volledig afhangt van de data die ze heeft. Werkmanrooster is geschreven in verschillende programeertalen in de vorm van `code`. `Code` is een manier om een computer te laten weten wat hij moet doen. Dit klinkt allemaal heel moeilijk, maar het is niets meer dan een manier voor programmeurs te communiceren met computers. Wees vooral niet bang om wat nieuws te leren, want ik moet helaas soms de 'naakte' code laten zien om deze uitleggen.
 
-Om te beginnen ga ik je wat leren over `code`. `Code` is eigenlijk gewoon een manier waarop je een computer verteld wat hij moet doen. Dit kan door te vertellen welke handelingen hij moet doen, maar ook vooral afwegingen maken tussen verschillende soorten informatie. Sommige dingen zou je wel herkennen van wiskunde bijvoorbeeld de `<`, `>` en `=` tekens. Ook word er in `code` gebruik gemaakt van variabelen (`var`).
+De code die we nu kort gaan bekijken is geschreven in de taal "`Javascript`" soms verkort naar "`js`". `Javascript` is een van de makkelijkste talen om op te pakken en snel dingen mee te maken die werken. `Javascript` wordt vaak gebruikt voor het toevoegen van interactiviteit aan webpagina's of soms wel voor een heel project. `Javascript` (maar ook andere programeertalen) zijn geschreven zodat er op verschillende manieren aan de computer duidelijk gemaakt kan worden wat de programeur de computer wil laten doen. Dit wordt vaak gedaan met het gebruik van zogenaamde "`keywords`". Dit zijn dingen zoals "`var`" voor het defineren van een variabele, "`function`" voor het defineren van een functie (vergelijkbaar met een wiskundige functie) nog veel meer. Ook word er met code sommige afwegingen gemaakt. Denk dan vooral aan het nakijken van dingen. Hoe dit word beschreven in `code` is te herkennen van wiskunde bijvoorbeeld de `<`, `>` en `=` tekens.
 
-Zo'n afweging ziet er als volgende uit in `code`.
+Laten we kijken naar een klein stukje code met verschillende `keywords` en een afweging, aangegeven met `if`. De dingen tekst die volgt na de `//` word genegeerd door de computer, dit is om opmerkingen achter te laten aan potentiele lezers.
 
 ```javascript
 //Defineer het variabele fount_students en geef het een waarde van 10.
