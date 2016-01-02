@@ -1,7 +1,7 @@
 #### In het kort - De broodjeszaak
 ---
 Ik hoop dat ik je geen honger heb gegeven met deze titel, ik moet toegeven dat ik zelf ook honger kreeg toen ik dit voorbeeld bedacht.
-Laten we beginnen. Hoe Werkmanrooster werkt is vergelijkbaar met een broodjeszaak, een soort Subway. Als jij binnen komt bij een broodjeszaak, dan loop je naar de balie en bestel je een broodje. Dit broodje wordt dan vervolgens voor je gemaakt: er worden ingrediënten voorbereid en uiteinelijk op je broodje gedaan. Uiteindelijk word het broodje ingepakt in wat papier met wat servetten, daarna kan je genieten van je broodje.
+Laten we beginnen. Hoe Werkmanrooster werkt is vergelijkbaar met een broodjeszaak, een soort Subway. Als jij binnen komt bij een broodjeszaak, dan loop je naar de balie en bestel je een broodje. Dit broodje wordt dan vervolgens voor je gemaakt: er worden ingrediënten voorbereid en uiteindelijk op je broodje gedaan. Het broodje ingepakt in wat papier met wat servetten, daarna kan je genieten van je broodje.
 
 Dit lijkt allemaal vrij triviaal. Tuurlijk zou je zeggen, dat is inderdaad hoe een broodjeszaak werkt, dat hoef je me niet uit te leggen. Meeste mensen zullen ook vragen wat dit nou te maken heeft met Werkmanrooster. Een goede vraag om te stellen. Het is namelijk zo dat Werkmanrooster en heel veel andere websites, apps en programma's op een soortgelijke manier werken. Laten we kort kijken wat je doet bij Werkmanrooster om je rooster te krijgen.
 

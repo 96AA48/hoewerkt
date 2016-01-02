@@ -19,7 +19,7 @@ Werkmanrooster beschikt over een grote archiefkast van leerlingen, docenten, kla
   Rooster: roosters5.gepro-osi.nl/roosters/rooster.php?school=934&type=Leerlingrooster&afdeling=l_atheneum 6&leerling=16374
 ```
 
-Wat de secretaresse doet is elk bestand bij langs gaan en dit vergelijken met jouw zoekopdracht. Als jij vraagt naar "Bram" dan zal ze alle Brammen pakken. Vraag jij bevoorbeeld naar "Atheneum 6" dan zal zij alle bestanden pakken die uit Atheneum 6 komen. Mocht ze alleen maar een bestand vinden bij de zoekopdracht, dan stuurt ze het gevonden bestand naar haar collega die het rooster zal opzoeken en uitprinten.
+Wat de secretaresse doet is elk bestand bij langs gaan en dit vergelijken met jouw zoekopdracht. Als jij vraagt naar "Bram" dan zal ze alle Brammen pakken. Vraag jij bijvoorbeeld naar "Atheneum 6" dan zal zij alle bestanden pakken die uit Atheneum 6 komen. Mocht ze alleen maar een bestand vinden bij de zoekopdracht, dan stuurt ze het gevonden bestand naar haar collega die het rooster zal opzoeken en uitprinten.
 
 ---
 
@@ -35,8 +35,8 @@ Bij het intypen van `Bram van der Veen` zal `rooster.io` [de informatie](http://
 }
 ```
 
-Wat we hier zien is ook een soort van `code`. Het is misschien niet direct een manier van vertellen wat een computer moet doen, maar een manier waarop code informatie kan vasthouden en organiseren. De structuur (of syntax) is vergelijkbaar met die van `Javascript`, dat klopt ook zeker. Dit is namelijk een dataobject genoteerd in zogenaamd "**J**ava**s**cript **O**bject **N**otation", `JSON` in het kort. Eigenlijk staat er precies hetzelfde als in het bestand uit de archierkast, maar er zijn wat tekens aan toegevoegd zodat de computer het kan lezen.
-  
+Wat we hier zien is ook een soort van `code`. Het is misschien niet direct een manier van vertellen wat een computer moet doen, maar een manier waarop code informatie kan vasthouden en organiseren. De structuur (of syntax) is vergelijkbaar met die van `Javascript`, dat klopt ook zeker. Dit is namelijk een dataobject genoteerd in zogenaamd "**J**ava**s**cript **O**bject **N**otation", `JSON` in het kort. Eigenlijk staat er precies hetzelfde als in het bestand uit de archiefkast, maar er zijn wat tekens aan toegevoegd zodat de computer het kan lezen.
+
 `Rooster.io` werkt hier net zoals de secretaresse. Hij gaat alle bestanden bij langs om te kijken of jouw zoekopdracht overeenkomt met een van de vele bestanden in de database. Zo'n bestand ziet er zo uit:
 ```javascript
 //Een dataset voor de zoekopdracht "Bram van der Veen"
