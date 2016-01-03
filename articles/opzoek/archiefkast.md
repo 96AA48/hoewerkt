@@ -1,7 +1,7 @@
-##### Opzoek naar je naam
+# Opzoek naar je naam
 ---
 
-##### De Werkmanrooster archiefkast
+## De Werkmanrooster archiefkast
 
 Nadat je computer werkmanrooster.nl heeft gevonden via het [`DNS` telefoonboek](/intypen), maakt hij verbinding met de website. Je ziet de hoofdpagina van de website en typt je naam in. Je drukt op enter en de je rooster laadt in minder dan een seconde.
 
@@ -23,7 +23,7 @@ Wat de secretaresse doet is elk bestand bij langs gaan en dit vergelijken met jo
 
 ---
 
-##### Zoeken naar een naald in een naaldberg
+## Zoeken naar een naald in een naaldberg
 Bij het intypen van `Bram van der Veen` zal rooster.io [de informatie](http://werkmanrooster.nl/api/search?name=Bram van der Veen) vinden die daar bij hoort. Je ziet een duidelijke overeenkomst tussen het onder weergeven database bestand en het bestand van de archiefkast. Het verschil zijn wat vreemde tekens in en rond de informatie. Wat betekent dit allemaal?
 
 ```javascript

@@ -1,4 +1,4 @@
-#### Handen uit de mouwen
+# Handen uit de mouwen
 ---
 
 We gaan samen een data gedreven applicatie maken! Je dacht misschien dat het alleen bleef bij wat vertellen en misschien een conclusie, maar ik ga een stapje verder. Jij en ik, gaan gewoon even onze handen bij elkaar steken en gewoon iets op de wereld zetten samen. Maak je maar niet te veel zorgen, ik heb het meeste werk al gedaan. We hoeven alleen de laatste handen nog te leggen, maar hier valt veel van te leren.
@@ -41,7 +41,7 @@ Dan is er nog een stuk waar er staat `//Hier gaan we programeren`. Zoals de comm
 
 ---
 
-#### Switch-a-roo
+# Switch-a-roo
 
 Laten we beginnen met het schrijven van wat simpele code. Typ het volgende tussen de haakjes van het `for` `keyword` (Waar `//Hier gaan we programeren` staat).
 

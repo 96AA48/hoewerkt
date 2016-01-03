@@ -1,4 +1,4 @@
-##### Je gaat naar de website - Telefoonboek
+# Je gaat naar de website - Telefoonboek
 ---
 Iedereen gebruikt het internet dagelijks, en vaak zonder te weten wat er eigenlijk allemaal gebeurd achter de schermen. Een van de dingen die vrijwel het vaakste word uitgevoerd is het gaan naar een website. Wat veel mensen niet weten is dat het internet net zo werkt als dat wij onze telefoons gebruiken.
 
