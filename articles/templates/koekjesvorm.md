@@ -15,7 +15,7 @@ Hoe een template werkt, is te vergelijken met wiskundige formules. Je hebt gewoo
 p Hallo #{naam}, hoe gaat het met jou?
 ```
 
-Ik voer dan voor het variabele `naam` dan de naam van de rooster opvrager. Op die manier krijg ik dus bijvoorbeeld `Hallo Bert, hoe gaat het met jou?` als het variabele naam gelijk staat aan `Bert`. Deze templaten zijn echter geschreven in een taal die dit soort vergelijkingen makkelijk leesbaar maakt voor de programeur, ik heb voor `rooster.io` gekozen voor `Jade`. `Jade` kan veel handige dingen zoals het importeren van templaten in een ander template, waardoor je een project modulair kan aanpakken. Laten we eens bekijken hoe zo'n template er uit ziet.
+Ik voer dan voor het variabele `naam` dan de naam van de rooster opvrager. Op die manier krijg ik dus bijvoorbeeld `Hallo Bert, hoe gaat het met jou?` als het variabele naam gelijk staat aan `Bert`. Deze templaten zijn echter geschreven in een taal die dit soort vergelijkingen makkelijk leesbaar maakt voor de programeur, ik heb voor rooster.io gekozen voor `Jade`. `Jade` kan veel handige dingen zoals het importeren van templaten in een ander template, waardoor je een project modulair kan aanpakken. Laten we eens bekijken hoe zo'n template er uit ziet.
 
 ```jade
 .bar

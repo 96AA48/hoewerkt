@@ -24,7 +24,7 @@ Wat de secretaresse doet is elk bestand bij langs gaan en dit vergelijken met jo
 ---
 
 ##### Zoeken naar een naald in een naaldberg
-Bij het intypen van `Bram van der Veen` zal `rooster.io` [de informatie](http://werkmanrooster.nl/api/search?name=Bram van der Veen) vinden die daar bij hoort. Je ziet een duidelijke overeenkomst tussen het onder weergeven database bestand en het bestand van de archiefkast. Het verschil zijn wat vreemde tekens in en rond de informatie. Wat betekent dit allemaal?
+Bij het intypen van `Bram van der Veen` zal rooster.io [de informatie](http://werkmanrooster.nl/api/search?name=Bram van der Veen) vinden die daar bij hoort. Je ziet een duidelijke overeenkomst tussen het onder weergeven database bestand en het bestand van de archiefkast. Het verschil zijn wat vreemde tekens in en rond de informatie. Wat betekent dit allemaal?
 
 ```javascript
 //In dit voorbeeld heeft naam_voor_de_data, de waarde "data".
@@ -37,7 +37,7 @@ Bij het intypen van `Bram van der Veen` zal `rooster.io` [de informatie](http://
 
 Wat we hier zien is ook een soort van `code`. Het is misschien niet direct een manier van vertellen wat een computer moet doen, maar een manier waarop code informatie kan vasthouden en organiseren. De structuur (of syntax) is vergelijkbaar met die van `Javascript`, dat klopt ook zeker. Dit is namelijk een dataobject genoteerd in zogenaamd "**J**ava**s**cript **O**bject **N**otation", `JSON` in het kort. Eigenlijk staat er precies hetzelfde als in het bestand uit de archiefkast, maar er zijn wat tekens aan toegevoegd zodat de computer het kan lezen.
 
-`Rooster.io` werkt hier net zoals de secretaresse. Hij gaat alle bestanden bij langs om te kijken of jouw zoekopdracht overeenkomt met een van de vele bestanden in de database. Zo'n bestand ziet er zo uit:
+rooster.io werkt hier net zoals de secretaresse. Hij gaat alle bestanden bij langs om te kijken of jouw zoekopdracht overeenkomt met een van de vele bestanden in de database. Zo'n bestand ziet er zo uit:
 ```javascript
 //Een dataset voor de zoekopdracht "Bram van der Veen"
 {
@@ -55,6 +55,6 @@ Wat we hier zien is ook een soort van `code`. Het is misschien niet direct een m
   }
 ```
 Het bestand is eigenlijk een groep variabeles die het systeem bij langs gaat. In dit geval komt `Bram van der Veen` overeen met de waarde van het variabele `name`. Maar hetzelfde geld als ik bijvoorbeeld alleen `Bram` of `van der Veen` intyp, het systeem zal alleen [meerdere ](http://werkmanrooster.nl/api/search?name=Bram)[mensen](http://werkmanrooster.nl/api/search?name=van der Veen) vinden met dezelfde waardes.  
-Als `rooster.io` meerdere mensen vindt voor dezelfde zoekopdracht dan maakt hij een lijst zodat de gebruiker kan kiezen uit welk van de mensen hij of zij het rooster wil zien. Als er maar één persoon gevonden wordt dan gaat `rooster.io` verder met de volgende stap, het rooster verkrijgen en verwerken.
+Als rooster.io meerdere mensen vindt voor dezelfde zoekopdracht dan maakt hij een lijst zodat de gebruiker kan kiezen uit welk van de mensen hij of zij het rooster wil zien. Als er maar één persoon gevonden wordt dan gaat rooster.io verder met de volgende stap, het rooster verkrijgen en verwerken.
 
 [Volgende >>](/verkrijgen)
