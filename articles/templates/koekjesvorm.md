@@ -40,10 +40,10 @@ Ik voer dan voor het variabele `naam` dan de naam van de rooster opvrager. Op di
         a(href="/login") Login
       li |
       li
-        a(href="http://hoewerkt.werkmanrooster.nl", target="_blank") Hoe werkt Werkmanrooster?
+        a(href="http://hoewerkt.Werkmanrooster.nl", target="_blank") Hoe werkt Werkmanrooster?
     ul.right
       li
-        a(href="http://git.werkmanrooster.nl/werkmanrooster/rooster-io.git", target="_blank") Recente ontwikkelingen
+        a(href="http://git.Werkmanrooster.nl/Werkmanrooster/rooster-io.git", target="_blank") Recente ontwikkelingen
 ```
 
 Dit template zorgt voor de kleine rode of blauwe bar aan de bovenkant van elke Werkmanrooster pagina. Wat hier belangrijk is, is de evalutatie van het variabele `user`. Dit variabele bepaald namelijk hoe de pagina er uit gaat zien. Als het variabele `user` niet bestaat, en er dus niet is ingelogd dan word de gebruiker een login knopje laten zien. Als de gebruiker wel is ingelogd (het variabele `user` bestaat) dan wordt dat variabele gebruikt om een groet aan de gebruiker te laten zien.

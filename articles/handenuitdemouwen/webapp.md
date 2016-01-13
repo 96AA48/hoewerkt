@@ -72,4 +72,4 @@ Herhaal het stappenplan net zoals bij de eerste keer en bekijk de resultaten. Je
 Bedenk ook een keer zelf een manier waarop je de informatie kan sorteren of verwerken, hoe je dit wil doen en pas de code aan. Herhaal de stappen van het stappenplan, blijf de code zo vaak aan passen als je wil en speel er gewoon wat mee. Weet gewoon dat je vandaag heb geprogrameerd, op een manier waarop ik ook ooit begon, met kleine stapjes. Ik hoop dat je het leuk vond!
 
 ---
-[Volgende >>](#)
+[Volgende >>](/conclusie)

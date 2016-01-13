@@ -1,6 +1,6 @@
 # Leerlingen, Lokalen en Docenten
 ---
-We weten al hoe werkmanrooster jouw informatie gebruikt om het zoeken naar je rooster makkelijker te maken. Maar hoe komt werkmanrooster eigenlijk aan die informatie? Dat gaan we bespreken in dit hoofdstuk.
+We weten al hoe Werkmanrooster jouw informatie gebruikt om het zoeken naar je rooster makkelijker te maken. Maar hoe komt Werkmanrooster eigenlijk aan die informatie? Dat gaan we bespreken in dit hoofdstuk.
 
 Werkmanrooster maakt gebruik van een zelfgeschreven script genaamd een "`crawler`". Deze crawler kan meerdere webpagina's afgaan om informatie te verkrijgen en deze opslaan. Dit doet hij door bepaalde patronen te herkennen in de webpagina's en daarmee de benodigde informatie herkennen. Het script heet in `spider.js` in het project.
 
@@ -44,7 +44,7 @@ De eerste stap die je ziet, is dat er een variabele wordt verklaard genaamd `lis
 
 Bij de declaratie van `name` bijvoorbeeld : `var name = student.split(' - ')[1]`, wat betekent dat? Het eerste gedeelte is nog wel te verklaren met wat je weet. Het variabele `name` is gelijk aan `student.split(' - ')[1]`, maar wat `.split(' - ')[1]` nou weer betekent, is je waarschijnlijk onbekend. De functie `split()` kun je zien als een soort schaar. Hij knipt namelijk op een gegeven punt (dat word doorgegeven tussen de haakjes) en geeft een dataobject terug waar een zin in stukjes zit. Dit is heel erg handig als je kijkt naar de lijst aan de linker kant. Je ziet dat elke keer als we een `student` nemen uit `listOfStudents` dat we dan iets krijgen zoals `A6A - Bram van der Veen`. We krijgen dus de naam er uit door dit te knippen met `.split()`. Dit doen we dan met door `' - '` door te geven. Want als we zo knippen, houden we een dataobject over met `A6A` en `Bram van der Veen`. Het enige wat we dan nog moeten doen is dan de goede selecteren. Dus doen we er een `[1]` achter. Waarom `1` en niet `0`? De manier waarop computers werken, is dat ze beginnen met tellen bij `0`, en dus is `0` het eerste wat we kunnen krijgen uit een object en `1` het tweede.
 
-Daar onder zien we een variabele genaamd `databaseEntry`, wat heel erg veel lijkt op het [dataobject](http://werkmanrooster.nl/api/search?name=Bram van der Veen) uit het [archiefkast hoofdstuk](/opzoek). Dat komt omdat het gaat over hetzelfde object! De code die hier boven staat is dus verantwoordelijk voor het functioneren van rooster.io. Waar rooster.io een data gedreven applicatie is, is dit de data.
+Daar onder zien we een variabele genaamd `databaseEntry`, wat heel erg veel lijkt op het [dataobject](http://Werkmanrooster.nl/api/search?name=Bram van der Veen) uit het [archiefkast hoofdstuk](/opzoek). Dat komt omdat het gaat over hetzelfde object! De code die hier boven staat is dus verantwoordelijk voor het functioneren van rooster.io. Waar rooster.io een data gedreven applicatie is, is dit de data.
 
 ---
 [Volgende >>](/handenuitdemouwen)

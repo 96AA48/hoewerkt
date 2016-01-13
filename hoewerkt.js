@@ -10,7 +10,8 @@ var articles = [
   'verkrijgen:Verkrijgen en verwerken',
   'templates:Templaten',
   'database:De database',
-  'handenuitdemouwen:Handen uit de mouwen'
+  'handenuitdemouwen:Handen uit de mouwen',
+  'conclusie:Conclusie'
 ]
 
 module.exports = function (req, res, next) {

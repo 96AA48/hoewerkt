@@ -3,7 +3,7 @@
 
 ## De Werkmanrooster archiefkast
 
-Nadat je computer werkmanrooster.nl heeft gevonden via het [`DNS` telefoonboek](/intypen), maakt hij verbinding met de website. Je ziet de hoofdpagina van de website en typt je naam in. Je drukt op enter en de je rooster laadt in minder dan een seconde.
+Nadat je computer Werkmanrooster.nl heeft gevonden via het [`DNS` telefoonboek](/intypen), maakt hij verbinding met de website. Je ziet de hoofdpagina van de website en typt je naam in. Je drukt op enter en de je rooster laadt in minder dan een seconde.
 
 In die ene seconden zijn heel wat processen aan de gang om ervoor te zorgen dat jij je rooster te zien krijgt. We gaan ons nu bezighouden met hoe Werkmanrooster bijhoudt wie welk rooster heeft. Je hebt vast wel gehoord van een `database`, in een film of je favoriete serie. De nerd met een bril zit achter de computer terwijl hij iets met een `database` doet. Maar wat is een database eigenlijk? Een `database` is een groot digitaal archief waar informatie in zit. Laten we kijken naar een voorbeeld met een archiefkast.
 
@@ -24,7 +24,7 @@ Wat de secretaresse doet is elk bestand bij langs gaan en dit vergelijken met jo
 ---
 
 ## Zoeken naar een naald in een naaldberg
-Bij het intypen van `Bram van der Veen` zal rooster.io [de informatie](http://werkmanrooster.nl/api/search?name=Bram van der Veen) vinden die daar bij hoort. Je ziet een duidelijke overeenkomst tussen het onder weergeven database bestand en het bestand van de archiefkast. Het verschil zijn wat vreemde tekens in en rond de informatie. Wat betekent dit allemaal?
+Bij het intypen van `Bram van der Veen` zal rooster.io [de informatie](http://Werkmanrooster.nl/api/search?name=Bram van der Veen) vinden die daar bij hoort. Je ziet een duidelijke overeenkomst tussen het onder weergeven database bestand en het bestand van de archiefkast. Het verschil zijn wat vreemde tekens in en rond de informatie. Wat betekent dit allemaal?
 
 ```javascript
 //In dit voorbeeld heeft naam_voor_de_data, de waarde "data".
@@ -54,7 +54,7 @@ rooster.io werkt hier net zoals de secretaresse. Hij gaat alle bestanden bij lan
       "url": "roosters5.gepro-osi.nl/?school=934&type=Leerlingrooster&afdeling=l_atheneum 6&leerling=16374"
   }
 ```
-Het bestand is eigenlijk een groep variabeles die het systeem bij langs gaat. In dit geval komt `Bram van der Veen` overeen met de waarde van het variabele `name`. Maar hetzelfde geld als ik bijvoorbeeld alleen `Bram` of `van der Veen` intyp, het systeem zal alleen [meerdere ](http://werkmanrooster.nl/api/search?name=Bram)[mensen](http://werkmanrooster.nl/api/search?name=van der Veen) vinden met dezelfde waardes.  
+Het bestand is eigenlijk een groep variabeles die het systeem bij langs gaat. In dit geval komt `Bram van der Veen` overeen met de waarde van het variabele `name`. Maar hetzelfde geld als ik bijvoorbeeld alleen `Bram` of `van der Veen` intyp, het systeem zal alleen [meerdere ](http://Werkmanrooster.nl/api/search?name=Bram)[mensen](http://Werkmanrooster.nl/api/search?name=van der Veen) vinden met dezelfde waardes.  
 Als rooster.io meerdere mensen vindt voor dezelfde zoekopdracht dan maakt hij een lijst zodat de gebruiker kan kiezen uit welk van de mensen hij of zij het rooster wil zien. Als er maar één persoon gevonden wordt dan gaat rooster.io verder met de volgende stap, het rooster verkrijgen en verwerken.
 
 [Volgende >>](/verkrijgen)
