@@ -1,6 +1,8 @@
 #### Inleiding
 ---
-Heel veel mensen op het Werkmancollege locatie Stadslyceum gebruiken een alternatieve manier van hun rooster bekijken. Dit doen ze via Werkmanrooster, een door leerlingen opgerichte website voor het bekijken van je eigen rooster. [Het eerste initiatief](http://web.archive.org/web/20101216064457/http://werkmanrooster.nl/) was van een paar leerlingen, later [overgenomen](http://web.archive.org/web/20140103031959/http://werkmanrooster.nl/) door Daniël Koster & Friso Wobben. Sinds December 2014 was het mijn beurt om het domein te beheren.
+Heel veel mensen op het Werkmancollege locatie Stadslyceum gebruiken een alternatieve manier van hun rooster bekijken. Ze doen dit via Werkmanrooster, een door leerlingen opgerichte website voor het bekijken van je eigen rooster.  
+[Het eerste initiatief](http://web.archive.org/web/20101216064457/http://werkmanrooster.nl/) was van een paar leerlingen, later [overgenomen](http://web.archive.org/web/20140103031959/http://werkmanrooster.nl/) door Daniël Koster & Friso Wobben.  
+Sinds December 2014 was het mijn beurt om het domein te beheren.
 
 Mijn passie voor programeren en dingen uitzoeken heeft me de laatste paar jaar bezig gehouden met het steeds beter worden in het ontwikkelen van websites, applicaties en andere technische snufjes. Werkmanrooster is daar geen uitzondering van. Dit is dan ook de reden dat ik mijn profielwerkstuk hierover schrijf, omdat ik het heel leuk vind om uit te leggen hoe programeren te werk gaat en misschien mensen iets nieuws laten leren.
   
