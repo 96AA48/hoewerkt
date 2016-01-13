@@ -6,7 +6,7 @@ We gaan samen een data gedreven applicatie maken! Je dacht misschien dat het all
 We hebben het volgende nodig:
   * Een computer
   * Een [zip](#) van het project
-  * Een programma waarmee je kan programeren (bijv [Atom](http://atom.io))
+  * Een programma waarmee je kan programmeren (bijv [Atom](http://atom.io))
   * Wat tijd en zin
 
 ---
@@ -24,7 +24,7 @@ var publishBuffer = '';
 
 //Loop door alle dingen van de database heen.
 for (entry of database.data) {
-  //Hier gaan wij programeren!
+  //Hier gaan wij programmeren!
   publishBuffer +=;
 }
 
@@ -37,13 +37,13 @@ Maak je maar geen zorgen, ik laat je niet zomaar alles zelf bedenken. Ik hou je 
 
 Dan hebben we een `var` genaamd `publishBuffer`, dit is een `string`. Een string word altijd aangegeven tussen quotes. Een string houd informatie vast zoals een woord of een zin, tussen die twee quotes. Hier is een voorbeeld van een string `'Dit is een string'`. Als het laatste zien we dat we een functie gebruiken van de `web` module. Met de functie `web.publish()` publiceren we een gegeven string naar het internet, die string is ons geval het `var` `publishBuffer`.
 
-Dan is er nog een stuk waar er staat `//Hier gaan we programeren`. Zoals de comment het aangeeft, is dit de plek waar wij gaan programeren. Het `for` `keyword` er boven zorgt ervoor dat we door alle dingen van de database heen gaan. Tussen de haakjes (`{` en `}`) kunnen we het variabele `entry` gebruiken om bij onze database te komen.
+Dan is er nog een stuk waar er staat `//Hier gaan we programmeren`. Zoals de comment het aangeeft, is dit de plek waar wij gaan programmeren. Het `for` `keyword` er boven zorgt ervoor dat we door alle dingen van de database heen gaan. Tussen de haakjes (`{` en `}`) kunnen we het variabele `entry` gebruiken om bij onze database te komen.
 
 ---
 
 # Switch-a-roo
 
-Laten we beginnen met het schrijven van wat simpele code. Typ het volgende tussen de haakjes van het `for` `keyword` (Waar `//Hier gaan we programeren` staat).
+Laten we beginnen met het schrijven van wat simpele code. Typ het volgende tussen de haakjes van het `for` `keyword` (Waar `//Hier gaan we programmeren` staat).
 
 ```javascript
 publishBuffer += entry + '\n';

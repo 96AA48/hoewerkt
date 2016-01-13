@@ -4,7 +4,7 @@
 ## Waarom moeilijk doen als het ook makkelijk kan?
 Je hebt tot nu toe gelezen wat er allemaal gebeurd als je rooster wordt opgevraagd. In de allerlaatste stap mogen we ons druk gaan maken over de opmaak van het rooster en Werkmanrooster. Dit wordt gedaan aan zogenaamde "templates", een soort koekjesvorm.
 
-Wat is een template eigenlijk? Een template is een versimpelde progammatuur in een bepaalde structuur stopt, vaak om het leesbaar te maken voor mensen. Je geeft een template een set van informatie, en dit template gaat dan aan de hand van hoe het geschreven is, de informatie op een bepaalde manier laten zien. Het is als een soort van koekjesvorm omdat je eigenlijk de informatie behandelt als je deeg. Je hebt heel veel deeg, maar uiteindelijk druk je er allemaal verschillende vormpjes uit waardoor je koekjes er anders uit komen. Zo kan Werkmanrooster snel en simpel een rooster van heel veel verschillende mensen ophalen en laten zien, zonder elke leerling apart in te programeren.
+Wat is een template eigenlijk? Een template is een versimpelde progammatuur in een bepaalde structuur stopt, vaak om het leesbaar te maken voor mensen. Je geeft een template een set van informatie, en dit template gaat dan aan de hand van hoe het geschreven is, de informatie op een bepaalde manier laten zien. Het is als een soort van koekjesvorm omdat je eigenlijk de informatie behandelt als je deeg. Je hebt heel veel deeg, maar uiteindelijk druk je er allemaal verschillende vormpjes uit waardoor je koekjes er anders uit komen. Zo kan Werkmanrooster snel en simpel een rooster van heel veel verschillende mensen ophalen en laten zien, zonder elke leerling apart in te programmeren.
 
 ---
 
