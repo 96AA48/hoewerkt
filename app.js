@@ -15,6 +15,7 @@ app.use('/css', less(__dirname + '/resources/less', {debug : true}));
 // app.use('/js', express.static(__dirname + '/resources/js'));
 app.use('/images', express.static(__dirname + '/resources/images'));
 app.use('/other', express.static(__dirname + '/resources/other'));
+app.use('/downloads', express.static(__dirname + '/resources/downloads'));
 //Setup markdown middleware.
 
 app.get('/', hoewerkt);

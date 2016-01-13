@@ -5,12 +5,12 @@ We gaan samen een data-gedreven applicatie maken! Je dacht misschien dat het all
 
 We hebben het volgende nodig:
   * Een computer
-  * Een [zip](#) van het project
+  * Een [zip](/downloads/werktman.zip) van het project
   * Een programma waarmee je kan programmeren (bijv [Atom](http://atom.io))
   * Wat tijd en zin
 
 ---
-Nadat je [Atom](http://atom.io) gedownload en ge"instaleerd hebt, is het tijd om de [zip](#) te downloaden waar het project in zit.
+Nadat je [Atom](http://atom.io) gedownload en geïnstaleerd hebt, is het tijd om de [zip](/downloads/werktman.zip) te downloaden waar het project in zit.
 Pak de zip uit in een map en ga de map binnen. Je ziet een paar dingen. Een bestand genaamd `node`, `app.js`, `database.json` en `web.js`. Het bestand wat voor ons belangrijk is, is het `app.js` bestand. Dit is namelijk waar we onze app gaan bouwen. Open `app.js` met [Atom](http://atom.io). Dit is wat je nu moet zien :
 
 ```javascript
@@ -33,7 +33,7 @@ web.publish(publishBuffer);
 
 ```
 
-Maak je maar geen zorgen, ik laat je niet zomaar alles zelf bedenken. Ik hou je hand vast terwijl ik je stap voor stap zeg wat we gaan doen. Laat ik beginnen met uitleggen wat er nu voor je neus staat. Aan het begin van het bestand zien we twee `var` verklaard worden. Het variabele `database` is een database van alle leerlingen, docenten en lokalen die publiek online verkrijgbaar zijn. Het variabele `web` is een object met functies die we kunnen gebruiken voor verschillende doeleinden, in ons geval iets aan het web laten zien. Een object met functies dat ge"importeerd word via `require()` noemen we een module.
+Maak je maar geen zorgen, ik laat je niet zomaar alles zelf bedenken. Ik hou je hand vast terwijl ik je stap voor stap zeg wat we gaan doen. Laat ik beginnen met uitleggen wat er nu voor je neus staat. Aan het begin van het bestand zien we twee `var` verklaard worden. Het variabele `database` is een database van alle leerlingen, docenten en lokalen die publiek online verkrijgbaar zijn. Het variabele `web` is een object met functies die we kunnen gebruiken voor verschillende doeleinden, in ons geval iets aan het web laten zien. Een object met functies dat geïmporteerd word via `require()` noemen we een module.
 
 Dan hebben we een `var` genaamd `publishBuffer`, dit is een `string`. Een string word altijd aangegeven tussen quotes. Een string houd informatie vast zoals een woord of een zin, tussen die twee quotes. Hier is een voorbeeld van een string `'Dit is een string'`. Als het laatste zien we dat we een functie gebruiken van de `web` module. Met de functie `web.publish()` publiceren we een gegeven string naar het internet, die string is ons geval het `var` `publishBuffer`.
 
