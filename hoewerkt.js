@@ -8,9 +8,10 @@ var articles = [
   'intypen:Je gaat naar de website',
   'opzoek:Op zoek naar je naam',
   'verkrijgen:Verkrijgen en verwerken',
-  'dataapps:Data gedreven applicaties',
   'templates:Templaten',
-  'database:De database'
+  'database:De database',
+  'handenuitdemouwen:Handen uit de mouwen',
+  'conclusie:Conclusie'
 ]
 
 module.exports = function (req, res, next) {
