@@ -1,5 +1,5 @@
 # Hoe werkt Werkmanrooster?
-## of data gedreven applicaties
+## of data-gedreven applicaties
 Door B. van der Veen, Atheneum 6 2016, begeleidt door B. Gelling, N&G Profiel Wiskunde
 
 ---

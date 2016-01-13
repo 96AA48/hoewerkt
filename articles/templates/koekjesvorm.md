@@ -15,7 +15,7 @@ Hoe een template werkt, is te vergelijken met wiskundige formules. Je hebt gewoo
 p Hallo #{naam}, hoe gaat het met jou?
 ```
 
-Ik voer dan voor het variabele `naam` dan de naam van de rooster opvrager. Op die manier krijg ik dus bijvoorbeeld `Hallo Bert, hoe gaat het met jou?` als het variabele naam gelijk staat aan `Bert`. Deze templaten zijn echter geschreven in een taal die dit soort vergelijkingen makkelijk leesbaar maakt voor de programeur, ik heb voor rooster.io gekozen voor `Jade`. `Jade` kan veel handige dingen zoals het importeren van templaten in een ander template, waardoor je een project modulair kan aanpakken. Laten we eens bekijken hoe zo'n template er uit ziet.
+Ik voer dan voor het variabele `naam` dan de naam van de rooster opvrager. Op die manier krijg ik dus bijvoorbeeld `Hallo Bert, hoe gaat het met jou?` als het variabele naam gelijk staat aan `Bert`. Deze templaten zijn echter geschreven in een taal die dit soort vergelijkingen makkelijk leesbaar maakt voor de programmeur, ik heb voor rooster.io gekozen voor `Jade`. `Jade` kan veel handige dingen zoals het importeren van templaten in een ander template, waardoor je een project modulair kan aanpakken. Laten we eens bekijken hoe zo'n template er uit ziet.
 
 ```jade
 .bar
@@ -48,7 +48,7 @@ Ik voer dan voor het variabele `naam` dan de naam van de rooster opvrager. Op di
 
 Dit template zorgt voor de kleine rode of blauwe bar aan de bovenkant van elke Werkmanrooster pagina. Wat hier belangrijk is, is de evalutatie van het variabele `user`. Dit variabele bepaald namelijk hoe de pagina er uit gaat zien. Als het variabele `user` niet bestaat, en er dus niet is ingelogd dan word de gebruiker een login knopje laten zien. Als de gebruiker wel is ingelogd (het variabele `user` bestaat) dan wordt dat variabele gebruikt om een groet aan de gebruiker te laten zien.
 
-Alle in het rood gekleurde letters en woorden die je aan het begin van elke regel ziet staan zijn verschillende `HTML` elementen. Elke webpagina bestaat uit `HTML` en nog een taal genaamd `CSS`. `HTML` is ervoor om een duidelijke structuur aan de pagina te geven met verschillende "elementen". Deze elementen kunnen een vormgevende functie of een inhoudelijke functie hebben. In het voorbeeld hierboven maken we bijvoorbeeld gebruik van het element `a` die als een link fungeert zodat de gebruiker naar een andere website kan als hij op de link klikt. Het is niet al te belangrijk om te weten wat het meeste er van betekent.
+Alle in het rood gekleurde letters en woorden die je aan het begin van elke regel ziet staan zijn verschillende `HTML` elementen. Elke webpagina bestaat uit `HTML` en nog een taal genaamd `CSS`. `HTML` is ervoor om een duidelijke structuur aan de pagina te geven met verschillende ëlementen". Deze elementen kunnen een vormgevende functie of een inhoudelijke functie hebben. In het voorbeeld hierboven maken we bijvoorbeeld gebruik van het element `a` die als een link fungeert zodat de gebruiker naar een andere website kan als hij op de link klikt. Het is niet al te belangrijk om te weten wat het meeste er van betekent.
 
 Het volgende wat we gaan bekijken is de template voor het renderen van een rooster uit een database bestand.
 ```jade
@@ -78,7 +78,7 @@ include search
 
 Je zou denken dat hier niet zoveel gebeurd. Laten we kijken naar een van de `keywords` die we een paar keer zien. Je ziet helemaal aan de bovenkant een paar keer `include` staan met daar achter een ander woord. `include` zorgt ervoor dat wij andere templaten kunnen importeren zoals `search` wat in ons geval de zoekbalk is die op elke pagina van Werkmanrooster staat.
 
-Dan is er nog `each`. `each` is een keyword waarmee de programeur zegt 'voor elke', dat wil zeggen, als een data object meerdere dingen bevat kan hij ze op die manier bij langs gaan. Het is hetzelfde wanneer je een ballenbak hebt en de kleuren wil sorteren. De ballenbak is dan het dataobject. Je zegt dan bijvoorbeeld  dat voor elke bal die ik hier uit pak, gaat de groene naar links en de rode naar rechts. En je pakt alle ballen uit de ballenbak totdat je allemaal gehad hebt. Hetzelfde gebeurd hier. Iedere keer als het `each` `keyword` word gebruikt gaat hij alle mogelijke dingen bij langs totdat hij klaar is. Hier kun je bijvoorbeeld zien bij de eerste `each` dat hij elke dag in het rooster bij langs gaat, en dat hij vervolgens elke dag ook nog alle uren bij langs gaat. Op deze manier komen alle dagen en uren aan bod!
+Dan is er nog `each`. `each` is een keyword waarmee de programmeur zegt 'voor elke', dat wil zeggen, als een data object meerdere dingen bevat kan hij ze op die manier bij langs gaan. Het is hetzelfde wanneer je een ballenbak hebt en de kleuren wil sorteren. De ballenbak is dan het dataobject. Je zegt dan bijvoorbeeld  dat voor elke bal die ik hier uit pak, gaat de groene naar links en de rode naar rechts. En je pakt alle ballen uit de ballenbak totdat je allemaal gehad hebt. Hetzelfde gebeurd hier. Iedere keer als het `each` `keyword` word gebruikt gaat hij alle mogelijke dingen bij langs totdat hij klaar is. Hier kun je bijvoorbeeld zien bij de eerste `each` dat hij elke dag in het rooster bij langs gaat, en dat hij vervolgens elke dag ook nog alle uren bij langs gaat. Op deze manier komen alle dagen en uren aan bod!
 
 ---
 [Volgende  >>](/database)

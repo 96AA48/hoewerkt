@@ -9,7 +9,7 @@ Dit is dan ook de reden dat ik mijn profielwerkstuk hierover schrijf. Ik vind he
 
 Sinds het mijn beurt was om Werkmanrooster te beheren, zijn er al veel versies van langsgekomen.  
 Dit profielwerkstuk gaat over mijn tweede versie van Werkmanrooster, genaamd [rooster.io](http://github.com/96aa48/rooster.io). Dit is de versie van Werkmanrooster die iedereen heeft gebruikt voor de laatste twee jaar.  
-In dit profielwerkstuk gaan we samen opzoek naar de antwoorden op vragen zoals: hoe werkt het internet en hoe werken data gedreven applicaties? Maar ook vooral waar het hele profielwerkstuk over gaat: hoe werkt Werkmanrooster?
+In dit profielwerkstuk gaan we samen op zoek naar de antwoorden op vragen zoals: hoe werkt het internet en hoe werken data-gedreven applicaties? Maar ook vooral waar het hele profielwerkstuk over gaat: hoe werkt Werkmanrooster?
 
 ---
 [Volgende >>](/moeilijkheidsgraad)
