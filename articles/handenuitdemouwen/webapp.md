@@ -48,7 +48,7 @@ Laten we beginnen met het schrijven van wat simpele code. Typ het volgende tusse
 ```javascript
 publishBuffer += entry + '\n';
 ```
-**Stappenplan**: Zorg er vervolgens voor dat je het bestand heb opgeslagen. Ga nu weer terug naar het mapje wat je hebt uigepakt en klik en sleep `app.js` op `node` en laat los. Ga vervolgens naar deze [link](http://localhost:1025).
+**Stappenplan**: Zorg er vervolgens voor dat je het bestand heb opgeslagen. Ga nu weer terug naar het mapje wat je hebt uitgepakt en klik en sleep `app.js` op `node` en laat los. Ga vervolgens naar deze [link](http://localhost:1025).
 
  Wat je op die webpagina te zien krijgt is het resultaat van wat we net hebben geschreven. Je ziet waarschijnlijk heel vaak `[object Object]` staan, en dat klopt. We hebben namelijk iedere keer geprobeerd een object toe te voegen aan onze webpagina en `Javascript` laat het vervolgens zo zien. Laten we een kleine aanpassing maken waardoor we wat te zien krijgen.
 
@@ -56,7 +56,7 @@ publishBuffer += entry + '\n';
 publishBuffer += entry.name + '\n';
 ```
 
-Herhaal het stappenplan van eerder. En en refresh de [pagina](http://localhost:1025) waar je net op was.
+Herhaal het stappenplan van eerder. En refresh de [pagina](http://localhost:1025) waar je net op was.
 Er is wat veranderd! Je ziet namelijk niet meer `[object Object]` maar van alles wat, leerlingen, lokalen en docenten. Laten we nog een paar veranderingen maken, we gaan namelijk gebruik maken van het `if` `keyword` om een afweging te doen. We willen namelijk alleen nog maar docenten laten zien. Vervang alles tussen de haakjes van `for` met :
 
 ```javascript

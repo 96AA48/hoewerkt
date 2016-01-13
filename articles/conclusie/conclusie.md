@@ -1,6 +1,6 @@
 ## Conclusie en samenvatting
 ---
-Nou dat was een kleine reisje wat we gemaakt hebben. We begonnen bij een broodjeszaak en we eindigen met het maken van onze eigen data-gedreven applicatie. Heel veel termen, concepten en andere dingen zijn langsgekomen. We hebben ook verschillende nieuwe dingen geleerd: hoe het internet werkt, wat data-gedreven applicaties zijn en hoe Werkmanrooster werkt.  
+Nou dat was een klein reisje wat we gemaakt hebben. We begonnen bij een broodjeszaak en we eindigen met het maken van onze eigen data-gedreven applicatie. Heel veel termen, concepten en andere dingen zijn langsgekomen. We hebben ook verschillende nieuwe dingen geleerd: hoe het internet werkt, wat data-gedreven applicaties zijn en hoe Werkmanrooster werkt.  
 
 <sup>Elk hoofdstuk heeft een aparte conclusie en het herhalen van al die conclusie is een samenvatting, vandaar dat deze onderdelen zijn samengevoegd.</sup>
 
