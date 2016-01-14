@@ -1,4 +1,4 @@
-# Leerlingen, Lokalen en Docenten
+# Leerlingen, Lokalen en Docenten (database)
 ---
 We weten al hoe Werkmanrooster jouw informatie gebruikt om het zoeken naar je rooster makkelijker te maken. Maar hoe komt Werkmanrooster eigenlijk aan die informatie? Dat gaan we bespreken in dit hoofdstuk.
 

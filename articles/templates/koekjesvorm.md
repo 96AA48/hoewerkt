@@ -1,5 +1,6 @@
-# Roosters en webpagina's als koekjesvorm
+# Templates
 ---
+## Roosters en webpagina's als koekjesvorm
 
 ## Waarom moeilijk doen als het ook makkelijk kan?
 Je hebt tot nu toe gelezen wat er allemaal gebeurd als je rooster wordt opgevraagd. In de allerlaatste stap mogen we ons druk gaan maken over de opmaak van het rooster en Werkmanrooster. Dit wordt gedaan aan zogenaamde "templates", een soort koekjesvorm.

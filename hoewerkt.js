@@ -8,10 +8,11 @@ var articles = [
   'intypen:Je gaat naar de website',
   'opzoek:Op zoek naar je naam',
   'verkrijgen:Verkrijgen en verwerken',
-  'templates:Templaten',
-  'database:De database',
+  'templates:Templates',
+  'database:Leerlingen, Lokalen en Docenten (database)',
   'handenuitdemouwen:Handen uit de mouwen',
-  'conclusie:Conclusie'
+  'conclusie:Conclusie',
+  'nawoord:Nawoord'
 ]
 
 module.exports = function (req, res, next) {
