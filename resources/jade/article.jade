@@ -10,7 +10,7 @@ html
     .container
       .row
       .sidebar.five
-          ul
+          ol
             for article in articles
               li
                 a(href="/" + (article.match(':') ? article.split(':')[0] : article))=article.match(':') ? article.split(':')[1] : article

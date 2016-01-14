@@ -12,3 +12,12 @@ Dit bronnen die gebruikt zijn in dit werkstuk worden altijd direct laten zien me
 * [De rooster.io documentatie](http://docs.werkmanrooster.nl)
 * [De rooster.io API endpoint](http://werkmanrooster.nl/api)
 * [Werkmanrooster](http://werkmanrooster.nl/)
+
+---
+## Procesverslag
+Mijn procesverslag is in een ander formaat dan verwacht. Ik heb namelijk dit profielwerkstuk geschreven met een handige applicatie genaamd `git`. `Git` zorgt ervoor dat ik accuraat kan bijhouden hoeveel uur ik heb gewerkt aan een project, wat ik heb veranderd en wat voor problemen ik tegen kwam. Dit staat niet geschreven als een word bestand, maar als een webpagina met alle details van alle veranderingen.
+
+[Klik hier om naar de pagina te gaan waar alle details over het proces van dit werktstuk staat](https://github.com/96AA48/hoewerkt/commits/master).
+
+---
+Nogmaals bedankt voor het lezen! [Naar Werkmanrooster.nl >>](http://werkmanrooster.nl)
