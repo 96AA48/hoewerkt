@@ -3,10 +3,16 @@
   float: left;
   margin-right: 20px;
   position: fixed;
-  left: 0px;
+  left: -300px;
   bottom: 0px;
   top: 0px;
-  display: none;
+  background-color: #FFF;
+  -webkit-transition: .5s ease;	
+
+  &:hover {
+    left: 0px;
+    -webkit-transition: .5s ease;	
+  }
 
   h5, p, sup {
     text-align: center !important;
@@ -34,9 +40,7 @@
     }
   }
 
-  ul {
-    list-style: none;
-
+  ol {
     li {
       margin: 0;
       padding: 0;
